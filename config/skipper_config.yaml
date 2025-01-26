@@ -1,0 +1,5 @@
+waypoint_skipper_node:
+  ros__parameters:
+    waypoints_csv: ''
+    waypoint_skip_tolerance: 3.5
+    skip_scan_count: 5

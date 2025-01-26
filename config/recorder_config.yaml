@@ -1,0 +1,13 @@
+wayopint_recorder_node:
+  ros__parameters:
+    saving_waypoints_file_name: 'oit20241026.csv'
+    
+    use_keyboard: False
+
+    use_joy: True
+    save_button: 0
+    quit_button: 1
+    erace_button: 2
+
+    auto_record: True
+    waypoint_interval: 4.0

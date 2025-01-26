@@ -1,0 +1,19 @@
+waypoint_manager_node:
+  ros__parameters:
+    # Set waypoints_csv file in the launch file
+    waypoints_csv: ''
+    loop_enable: True
+    loop_count: 5
+
+waypoint_visualizer_node:
+  ros__parameters:
+    # Set waypoints_csv file in the launch file
+    waypoints_csv: ''
+    map_frame: 'map'
+
+waypoint_skipper_node:
+  ros__parameters:
+    # Set waypoints_csv file in the launch file
+    waypoints_csv: ''
+    waypoint_skip_tolerance: 1.0
+    skip_scan_count: 5

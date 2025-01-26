@@ -1,0 +1,4 @@
+waypoint_visualizer_node:
+  ros__parameters:
+    waypoints_csv: ''
+    map_frame: 'map'
