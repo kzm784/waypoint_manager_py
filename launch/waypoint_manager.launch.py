@@ -20,7 +20,7 @@ def generate_launch_description():
 
     # Set the path to the Configuration file
     config_file_path = os.path.join(
-        get_package_share_directory('waypoint_manager'),
+        get_package_share_directory('waypoint_manager_py'),
         'config',
         'manager_config.yaml'
     )
