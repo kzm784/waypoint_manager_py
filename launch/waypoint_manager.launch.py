@@ -32,6 +32,7 @@ def generate_launch_description():
             executable='waypoint_manager',
             name='waypoint_manager_node',
             output='screen',
+            remappings=[('/current_pose', '/pcl_pose')],
             parameters=[config_file_path, {
                 'waypoints_csv': waypoints_csv_path,
             }]

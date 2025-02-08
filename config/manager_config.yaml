@@ -2,6 +2,7 @@ waypoint_manager_node:
   ros__parameters:
     # Set waypoints_csv file in the launch file
     waypoints_csv: ''
+    experiment_result_csv_name: 'test'
     loop_enable: True
     loop_count: 5
 
